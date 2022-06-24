@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+.movieContent {
+  margin: auto;
+  display: flex;
+  max-width: 90%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.popularMoviesH1 {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.yourResearchH1 {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  display: none;
+}
+
+.icons {
+  color: rgb(252, 185, 0);
+  margin-right: 5px;
+}
+
+.searchContainer {
+  position: relative;
+  z-index: 1;
+}
+
+.formContainer {
+  text-align: center;
+  margin-top: -250px;
+  margin-bottom: 250px;
+}
+
+.searchMovie {
+  height: 50px;
+  width: 400px;
+  text-align: left;
+  padding-left: 20px;
+  border-radius: 25px;
+  border: rgb(252, 185, 0) solid 2.5px;
+  font-size: 20px;
+  font-weight: 500;
+  outline: none;
+}
+
+.h2Error {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 25px;
+}
+
+.prevPage {
+  border: none;
+  font-size: 24px;
+  background: white;
+  border: rgb(240, 240, 240) solid 3px;
+  height: 55px;
+  width: 140px;
+  color: rgb(0, 132, 255);
+  margin-right: 5px;
+  transition: 0.5s;
+  border-radius: 50px;
+}
+
+.prevPage:hover {
+   background:rgb(0, 132, 255);
+   color: white
+}
+
+.nextPage {
+  border: none;
+  font-size: 24px;
+  background: white;
+  border: rgb(240, 240, 240)  solid 3px;
+  height: 55px;
+  width: 140px;
+  color: rgb(0, 132, 255);
+  margin-left: 5px;
+  transition: 0.5s;
+  border-radius: 50px;
+}
+
+.nextPage:hover {
+  background:rgb(0, 132, 255);
+  color: white
+}
+
+.pageNumber {
+  font-size: 24px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.ratingBox {
+  height: 60px;
+  width: 200px;
+  margin-top: -55px;
+  margin-left: 81%;
+  border-radius: 40px;
+  border: black solid 4px;
+}
+
+.true {
+  display: block
+}
+
+.false {
+  display: none;
+}
+
+.pRating {
+  font-size: 40px;
+  left: 74%;
+  position: absolute;
+  font-weight: 600;
+}
+
+.ratingStar1 {
+  color: silver;
+  font-size: 24px;
+  margin-left: 17px;
+}
+
+.ratingStar2 {
+  color: silver;
+  font-size: 24px;
+  margin-top: 14px;
+}
+
+.ratingStar3 {
+  color: silver;
+  font-size: 24px;
+  margin-top: 14px;
+}
+
+.ratingStar4 {
+  color: silver;
+  font-size: 24px;
+  margin-top: 14px;
+}
+
+.ratingStar5 {
+  color: silver;
+  font-size: 24px;
+  margin-top: 14px;
+}
+
+.buttonStar {
+  background: transparent;
+  border: none;
+}
+
+

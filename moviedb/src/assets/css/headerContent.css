@@ -1,0 +1,76 @@
+.imgHeader{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    opacity: 1;
+}
+
+.headerTop {
+    background: rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 500px;
+    backdrop-filter: blur(15px);
+}
+
+.iconLogo {
+    color: white;
+    font-size: 40px;
+}
+
+.logo {
+    display: flex;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.titleLogo {
+    font-size: 40px;
+    color: white;
+    margin-left: 10px;
+    font-weight: 800;
+    margin-top: -8px;
+    margin-right: 5px;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+}
+
+.loginRegister {
+    display: flex;
+    position: absolute;
+    left: 83%;
+    top: 0;
+    margin-top: 1.5%;
+}
+
+.loginButton {
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.registerButton {
+    color: rgb(252, 185, 0);
+    font-size: 25px;
+    border:rgb(252, 185, 0) solid 2px;
+    border-radius: 25px;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    margin-left: 30px;
+    padding-top: 8px;
+}
+
+
+.slogan {
+    top:30%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+}
+
+

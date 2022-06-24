@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.movieBox {
+  position: relative;
+  border-radius: 10px;
+  height: 405px;
+  transition: 0.5s;
+  margin: 25px 25px 40px 25px;
+}
+
+.content {
+  margin: auto;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding-top: 20px;
+  color: white;
+  opacity: 0;
+  transition: 0.5s;
+  background: rgba(0, 0, 0, 0.85);
+  width: 360px;
+  height: 100%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.8);
+  bottom: 90px;
+  left: -45px;
+  z-index: 1;
+  backdrop-filter: blur(5px);
+}
+
+.movieBox:hover .content {
+  opacity: 1;
+}
+
+.movieBox:hover .year {
+  opacity: 0;
+}
+
+.movieBox:hover .lenguage {
+  opacity: 0;
+}
+
+.image {
+  width: 270px;
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  transition: 0.5s;
+  height: 405px;
+}
+
+.imageNotFound {
+  width: 270px;
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  transition: 0.5s;
+  height: 405px ;
+}
+
+.title {
+  font-size: 24px;
+  width: 340px;
+  position: absolute;
+  top: 45px;
+  left: 15px;
+}
+
+.year {
+  font-size: 18px;
+  margin-bottom: 8px;
+  background: rgb(42, 127, 255);
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  padding-top: 4px;
+  margin-left: 15px;
+  margin-top: -45px;
+  color: white;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.year2 {
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  margin-top: -5px;
+  margin-left: 15px;
+  color: rgb(42, 127, 255);
+}
+
+.lenguage {
+  position: absolute;
+  top: 15px;
+  font-size: 16px;
+  left: 225px;
+  background: rgb(252, 185, 0);
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  transition: 0.5s;
+  padding-top: 6px;
+  text-transform: capitalize;
+}
+
+.voteAverage {
+  font-size: 20px;
+  position: absolute;
+  top: 15px;
+  left: 260px;
+  color:rgb(252, 185, 0);
+}
+
+.fa-star {
+  margin-right: 5px;
+  color:rgb(252, 185, 0);
+}
+
+.description {
+  font-size: 15x;
+  width: 330px;
+  margin: auto;
+  position: absolute;
+  top: 110px;
+  left: 15px;
+}
