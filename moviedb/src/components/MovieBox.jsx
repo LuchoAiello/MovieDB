@@ -164,6 +164,7 @@ function MovieBox() {
       document.querySelector("i.ratingStar4").style.color = "silver";
       document.querySelector("i.ratingStar5").style.color = "silver";
     }
+
   }
 
   return (
@@ -224,6 +225,13 @@ function MovieBox() {
           className="buttonStar"
         >
           <i className="fa-solid fa-star ratingStar5"></i>
+        </button>
+        <button
+          type="submit"
+          onClick={() => setStar(0, 11)}
+          className="buttonStar "
+        >
+          <i class="fa-solid fa-arrow-rotate-left resetButton"></i>
         </button>
       </div>
       <div className="pagination">

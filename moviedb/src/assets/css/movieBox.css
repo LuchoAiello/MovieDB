@@ -115,19 +115,11 @@
 
 .ratingBox {
   height: 60px;
-  width: 200px;
+  width: 240px;
   margin-top: -55px;
   margin-left: 81%;
   border-radius: 40px;
   border: black solid 4px;
-}
-
-.true {
-  display: block
-}
-
-.false {
-  display: none;
 }
 
 .pRating {
@@ -167,9 +159,17 @@
   margin-top: 14px;
 }
 
+.resetButton {
+  font-size: 32px;
+  margin-left: 6px;
+  position: absolute;
+  margin-top: -22px;
+}
+
 .buttonStar {
   background: transparent;
   border: none;
 }
+
 
 
