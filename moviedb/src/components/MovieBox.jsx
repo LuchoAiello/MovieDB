@@ -164,7 +164,6 @@ function MovieBox() {
       document.querySelector("i.ratingStar4").style.color = "silver";
       document.querySelector("i.ratingStar5").style.color = "silver";
     }
-
   }
 
   return (
@@ -242,11 +241,15 @@ function MovieBox() {
           <p>Next</p>
         </button>
       </div>
-      <div className="movieContent">
+      {moviesFilter.length == 0 ? (
+        <h2 className="h2Error">No movies found with this rating</h2>
+      ) : (
+        <div className="movieContent">
         {moviesFilter.map((movieReq) => (
           <MovieBoxContent key={movieReq.id} {...movieReq} />
         ))}
       </div>
+      )}
     </>
   );
 }
